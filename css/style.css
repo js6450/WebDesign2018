@@ -29,9 +29,9 @@ body, html{
 }
 
 a{
-	color: white;
-	text-decoration: none;
-	margin-left: 0;
+    color: white;
+    text-decoration: none;
+    margin-left: 0;
 }
 
 a:hover{
@@ -41,4 +41,26 @@ a:hover{
 	font-weight: bold;
 	margin-left: 2em;
 	transition: margin-left 0.5s;
+}
+
+.nav{
+	text-align: center;
+	margin-top: 3em;
+}
+
+a.nav-link, p.nav-item{
+	display: inline-block;
+}
+
+p.nav-item{
+	margin: 0;
+}
+
+a.nav-link{
+	margin: 12px;
+}
+
+a.nav-link:hover{
+	margin-left: 12px;
+	font-weight: normal;
 }
