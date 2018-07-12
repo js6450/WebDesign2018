@@ -1,0 +1,44 @@
+body, html{
+	margin: 0;
+	height: 100%;
+	font-family: "Helvetica", sans-serif;
+	background-color: #212121;
+	color: white;
+}
+
+.title, .subtitle{
+	text-align: center;
+}
+
+.title{
+	font-size: 3.5em;
+}
+
+.main{
+	width: 75%;
+	margin: auto;
+	padding: 32px;
+/*	background-color: rgba(255, 255, 255, 0.25);
+	padding: 32px;
+	border-radius: 16px;*/
+}
+
+.weblink{
+	font-size: 2em;
+	text-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	margin-left: 0;
+}
+
+a:hover{
+	color: black;
+	background-color: white;
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 2em;
+	transition: margin-left 0.5s;
+}
